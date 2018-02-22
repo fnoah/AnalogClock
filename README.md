@@ -8,7 +8,7 @@
 
 ## Usage
 
-### Storyboard
+### Storyboard
 Drop a view into your `ViewController` and assign it to the Class `AnalogClockView` from the Module `AnalogClock` inside the identity inspector.
 
 ### Programmatically
