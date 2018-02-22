@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4F36BD07203E034F005D6CED /* AnalogClock.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F36BD05203E034F005D6CED /* AnalogClock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F36BD0E203E035D005D6CED /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36BD0D203E035D005D6CED /* ClockView.swift */; };
+		4F36BD0E203E035D005D6CED /* AnalogClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F36BD0D203E035D005D6CED /* AnalogClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F36BD02203E034F005D6CED /* AnalogClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnalogClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F36BD05203E034F005D6CED /* AnalogClock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnalogClock.h; sourceTree = "<group>"; };
 		4F36BD06203E034F005D6CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F36BD0D203E035D005D6CED /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		4F36BD0D203E035D005D6CED /* AnalogClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogClockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			children = (
 				4F36BD05203E034F005D6CED /* AnalogClock.h */,
 				4F36BD06203E034F005D6CED /* Info.plist */,
-				4F36BD0D203E035D005D6CED /* ClockView.swift */,
+				4F36BD0D203E035D005D6CED /* AnalogClockView.swift */,
 			);
 			path = AnalogClock;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F36BD0E203E035D005D6CED /* ClockView.swift in Sources */,
+				4F36BD0E203E035D005D6CED /* AnalogClockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +268,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AnalogClock/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.noahfleischmann.AnalogClock;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -291,6 +292,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = AnalogClock/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.noahfleischmann.AnalogClock;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

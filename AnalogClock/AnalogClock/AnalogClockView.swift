@@ -1,5 +1,5 @@
 //
-//  ClockView.swift
+//  AnalogClockView.swift
 //  AnalogClock
 //
 //  Created by Noah Fleischmann on 21.02.18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class ClockView: UIView {
+public class AnalogClockView: UIView {
     var shapeLayer: CAShapeLayer!
     var circleLayer: CALayer!
     var hourHandLayer: CALayer!
