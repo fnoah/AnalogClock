@@ -9,11 +9,18 @@
 ## Usage
 
 ### Storyboard
+
 Drop a view into your `ViewController` and assign it to the Class `AnalogClockView` from the Module `AnalogClock` inside the identity inspector.
 
 ### Programmatically
 
 ## Installation
+
+To install `AnalogClock`  using [CocoaPods](https://cocoapods.org), add this line to your `Podfile`:
+
+~~~ruby
+pod 'AnalogClock'
+~~~
 
 ## Requirements
 
